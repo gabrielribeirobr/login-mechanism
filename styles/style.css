@@ -1,0 +1,39 @@
+
+
+.mainbox{
+    top: 100px;
+    left: 500;
+    height: 450px;
+    width: 400px;
+    margin: 0;
+    box-shadow: 0px 2px 2px 2px #D8D8D8;
+    -moz-box-shadow: 1px 1px 2px #D8D8D8;
+    position: relative;   
+    background-color: white;
+}
+
+#txtEmail{    
+    top: 150px;
+    size: 200px;
+    height: 25px;
+    width: 250px;
+    border-top: 0px;
+    border-left: 0px;
+    position: relative;
+    background-color: white;
+    border-bottom: 2px solid #D8D8D8;
+    box-shadow: 0px 0px 1px 0px #D8D8D8;
+}
+
+#pwd{    
+    top: 200px;
+    size: 200px;
+    width: 250px;
+    height: 25px;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px #D8D8D8;
+    border-bottom: 2px solid #D8D8D8;
+    border-top: 0px;
+    border-left: 0px;
+    background-color: white;
+}
