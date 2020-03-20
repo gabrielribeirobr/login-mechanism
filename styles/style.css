@@ -1,76 +1,81 @@
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .mainbox{    
-margin: 100px;
-margin: 0 auto;
-max-width: 400px;
-padding: 20px 50px;
-background-color: white;
-box-shadow: 0px 2px 2px 2px #D8D8D8;
--moz-box-shadow: 1px 1px 2px #D8D8D8;     
+  padding: 20px 50px;
+  background-color: white;
+  box-shadow: 0px 2px 2px 2px #D8D8D8;
+  -moz-box-shadow: 1px 1px 2px #D8D8D8;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
 }
 
 #txtEmail{       
-border: 0;
-width: 100%;
-height: 25px;
-background-color: white;
-border-bottom: 2px solid #D8D8D8;
-    
+  border: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-bottom: 2px solid #D8D8D8;    
 }
 
 #pwd{    
-border: 0;   
-width: 100%;
-height: 25px;
-margin: 50px 0px 50px 0px;
-background-color: white;
-border-bottom: 2px solid #D8D8D8;
-
+  border: 0;   
+  width: 100%;
+  height: 50px;
+  margin: 50px 0px 0px 0px;
+  background-color: white;
+  border-bottom: 2px solid #D8D8D8;
 }
 
-#login{  
-border: 0px;
-width: 100%;
-height: 50px;    
-cursor:pointer;
-font-size: 15px;   
-color:#ffffff;	
-border-radius:3px;
-text-align: center;
-display:inline-block;
-background-color:#1934af;
+#login{ 
+  border: 0px;
+  width: 100%;
+  height: 50px;    
+  cursor:pointer;
+  font-size: 15px;   
+  color:#ffffff;	
+  margin-top: 50px; 
+  border-radius:3px;
+  text-align: center;
+  display:inline-block;
+  background-color:#1934af;
 }
 
 #forgotP{
-    color: red;
-    font-size: 0.9em;
-    display: block;
-    text-align: left;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0px 0px 0px 250px;
+  margin: 20px auto;
+  color: red;
+  font-size: 0.5em;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  text-decoration: none;    
 }
 
 #forgotP:visited {
-text-decoration: none;
-color: red;
-font-size: 0.9em;
-font-weight: bold;
+  text-decoration: none;
+  color: red;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 #forgotP:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #signUp{
-    display: block;
-    font-size: 0.9em;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    border: 0px 0px 0px 50px;
-    color: rgb(22, 99, 161);
+  display: block;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 0px 0px 0px 50px;
+  color: rgb(22, 99, 161);
+  margin-top: 10px;
 }
 
 #signUp:hover{
